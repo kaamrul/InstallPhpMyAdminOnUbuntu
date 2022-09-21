@@ -49,7 +49,7 @@ It means that the user name is `admin` and password is also `admin`
 14. Grant Permission using the command as : 
     > `GRANT ALL PRIVILEGES ON . TO 'admin'@'%' WITH GRANT OPTION;`
 
-15. Resource Link : 
+##### Resource Link : 
     > `https://www.youtube.com/watch?v=VpygRfO8w9k`
 
 
@@ -68,6 +68,6 @@ It means that the user name is `admin` and password is also `admin`
 
     > sudo service apache2 reload
 
-#### Resource Link : 
+##### Resource Link : 
     > https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04
     > https://askubuntu.com/questions/118772/how-to-change-root-password-for-mysql-and-phpmyadmin
