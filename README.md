@@ -2,7 +2,8 @@
 
 ## 🛠 Installation and Setup Instructions
 
-1. To update the system first : `sudo apt update or sudo apt-get update`
+1. To update the system first : 
+    > `sudo apt update or sudo apt-get update`
 
 2. To install apache2 : `sudo apt-get install apache2`
 
