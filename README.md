@@ -60,11 +60,11 @@ It means that the user name is `admin` and password is also `admin`
     1. sudo dpkg-reconfigure phpmyadmin
 
     2. sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
-        sudo a2enconf phpmyadmin
-        sudo service apache2 reload
+       sudo a2enconf phpmyadmin
+       sudo service apache2 reload
 
     3. sudo apt-get install libapache2-mod-php8.1
-        sudo a2enmod php8.1
+       sudo a2enmod php8.1
 
     4. sudo service apache2 reload
 
