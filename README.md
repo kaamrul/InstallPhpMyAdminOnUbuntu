@@ -68,6 +68,6 @@ It means that the user name is `admin` and password is also `admin`
 
     > sudo service apache2 reload
 
-Resource Link : 
-    > `https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
-    > `https://askubuntu.com/questions/118772/how-to-change-root-password-for-mysql-and-phpmyadmin`
+#### Resource Link : 
+    > https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04
+    > https://askubuntu.com/questions/118772/how-to-change-root-password-for-mysql-and-phpmyadmin
