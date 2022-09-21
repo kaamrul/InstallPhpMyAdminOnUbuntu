@@ -34,7 +34,8 @@ after that type the code as:
 And press ctrl + o to save and ctrl + x to exit.
 
 11. Now goto the browser and type 
-    > `localhost/info.php` you will get the php version.
+    > `localhost/info.php` 
+ you will get the php version.
 
 12. Then in browser go to the 
     > `localhost/phpmyadmin` 
@@ -56,17 +57,17 @@ It means that the user name is `admin` and password is also `admin`
 
 ### Create user and grant permissions
 
-    > `sudo dpkg-reconfigure phpmyadmin`
+    > sudo dpkg-reconfigure phpmyadmin
 
-    > `sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf`
-    > `sudo a2enconf phpmyadmin`
-    > `sudo service apache2 reload`
+    > sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+    > sudo a2enconf phpmyadmin
+    > sudo service apache2 reload
 
-    > `sudo apt-get install libapache2-mod-php8.1`
-    > `sudo a2enmod php8.1`
+    > sudo apt-get install libapache2-mod-php8.1
+    > sudo a2enmod php8.1
 
-    > `sudo service apache2 reload`
+    > sudo service apache2 reload
 
-5. Resource Link : 
+Resource Link : 
     > `https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04`
     > `https://askubuntu.com/questions/118772/how-to-change-root-password-for-mysql-and-phpmyadmin`
