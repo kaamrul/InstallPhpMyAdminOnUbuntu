@@ -47,7 +47,7 @@ you will have to login now so to create user name and password at first go to
 It means that the user name is `admin` and password is also `admin`
 
 14. Grant Permission using the command as : 
-    > `GRANT ALL PRIVILEGES ON . TO 'admin'@'%' WITH GRANT OPTION;`
+    > `GRANT ALL PRIVILEGES ON*.* TO 'admin'@'%' WITH GRANT OPTION;`
 
 ##### Resource Link : 
     https://www.youtube.com/watch?v=VpygRfO8w9k
