@@ -57,16 +57,16 @@ It means that the user name is `admin` and password is also `admin`
 
 ### Create user and grant permissions
 
-    > sudo dpkg-reconfigure phpmyadmin
+    1. sudo dpkg-reconfigure phpmyadmin
 
-    > sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
-    > sudo a2enconf phpmyadmin
-    > sudo service apache2 reload
+    2. sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+    sudo a2enconf phpmyadmin
+    sudo service apache2 reload
 
-    > sudo apt-get install libapache2-mod-php8.1
-    > sudo a2enmod php8.1
+    3. sudo apt-get install libapache2-mod-php8.1
+    sudo a2enmod php8.1
 
-    > sudo service apache2 reload
+    4. sudo service apache2 reload
 
 ##### Resource Link : 
     https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04
